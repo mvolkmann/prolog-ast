@@ -13,4 +13,17 @@ run the script `limc` with `./limc demo.lim`.
 This creates the file `demo.limb` that contains an AST
 represented by a single Prolog term which is a nested structure.
 
-To execute the AST, reun the script `lim` with `./lim demo.limb`.
+To execute the AST, run the script `lim` with `./lim demo.limb`.
+
+The AST uses the following mapping from supported actions to Prolog functor names:
+
+| Action              | Functor Name |
+| ------------------- | ------------ |
+| assignment          | `a`          |
+| function call       | `c`          |
+| function definition | `f`          |
+| constant            | `k`          |
+| math expression     | `m`          |
+| print               | `p`          |
+| program             | `pr`         |
+| return              | `r`          |
