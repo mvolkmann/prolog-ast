@@ -1,0 +1,1 @@
+pr([f(add,[n1,n2],[a(sum,m(+,n1,n2)),r(sum)]),f(multiply,[n1,n2],[r(m(*,n1,n2))]),a(v,m(+,c(add,[k(2),k(3)]),c(multiply,[k(3),k(4)]))),p(v),p(m(+,c(add,[k(2),k(3)]),c(multiply,[k(3),k(4)])))]).
