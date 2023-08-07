@@ -8,5 +8,4 @@ if [ $# -ne 1 ]; then
   exit 1
 fi
 
-# swipl lim_compile_swi.pl "$1"
-scryerp -g run,halt lim_compile_scryer.pl -- "$1"
+scry -g run,halt lim_compile_scryer.pl -- "$1"
